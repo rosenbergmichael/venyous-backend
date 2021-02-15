@@ -1,5 +1,11 @@
 Models
 
+User
+:name, :username, :password
+
+has_many :venues
+
+
 Venue
 :name - string, :photo - string, :location - string, :esttotal - float
 
