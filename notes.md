@@ -7,7 +7,7 @@ has_many :venues
 
 
 Venue
-:name - string, :photo - string, :location - string, :esttotal - float
+:name - string, :image - string, :location - string, :esttotal - float
 
 has_many :infos OR has_one: info
 
